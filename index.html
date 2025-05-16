@@ -1,0 +1,844 @@
+<html data-dpr="1" style="font-size: 54px;">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="img/icon.jpg">
+    <title>水母报告</title>
+    <script>;(function () {
+        window.alert = function (name) {
+            var iframe = document.createElement("IFRAME");
+            iframe.style.display = "none";
+            iframe.setAttribute("src", 'data:text/plain');
+            document.documentElement.appendChild(iframe);
+            window.frames[0].window.alert(name);
+            iframe.parentNode.removeChild(iframe);
+        }
+    })();</script>
+    <link href="css/app.4a1689cead68ad60ff7fdb3d952029e4.css" rel="stylesheet">
+    <style>
+        .jquery-element-message {
+          min-width: 380px;
+          box-sizing: border-box;
+          border-radius: 4px;
+          border: 1px solid #e1f3d8;
+          background-color: #f0f9eb;
+          padding: 15px 15px 15px 20px;
+          display: flex;
+          align-items: center;
+          z-index: 9999;
+          box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .jquery-element-message.success {
+          background-color: #f0f9eb;
+          border-color: #e1f3d8;
+        }
+
+        .jquery-element-message .message-content {
+          color: #67c23a;
+          margin: 0;
+          font-size: 14px;
+          line-height: 1;
+          padding: 0;
+          flex: 1;
+        }
+
+        .message-icon {
+          width: 16px;
+          height: 16px;
+          margin-right: 10px;
+        }
+
+        table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+            font-size: 1.25rem;
+    color: #626571;
+}
+
+</style>
+        <!--    引用jquery-->
+    <script src="js/add_data_2.js"></script>
+    <style id="media-query-style">
+        @media only screen and (max-width: 4000px) {
+            html {
+                font-size: 12px !important;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            html {
+                font-size: 9px !important;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            html {
+                font-size: 9px !important;
+            }
+        }
+
+        @media only screen and (max-width: 320px) {
+            html {
+                font-size: 6px !important;
+            }
+        }
+    </style>
+</head>
+<body style="font-size: 12px;">
+<div id="app">
+    <div data-v-eb2929f4="">
+        <div data-v-eb2929f4="" style="width: 100%;">
+            <div data-v-eb2929f4="" class="row">
+                <button data-v-eb2929f4="" class="copy-link-btn zfbg-btn">转发报告</button>
+                <div data-v-eb2929f4="" class="top_down" style="height: 60px;">
+                    <li data-v-eb2929f4="" data-clipboard-text="上海强炫机械科技有限公司" class="copybox">上海强炫机械科技有限公司</li>
+                </div>
+            </div>
+            <div data-v-eb2929f4="">
+                <div data-v-015f8c46="" data-v-eb2929f4="" class="middle" style="height: 100%;">
+                    <div data-v-015f8c46="" class="middle_Basic_information">
+                        <ul data-v-015f8c46="" class="middle_Basic_information_top">
+                            <div data-v-015f8c46="" class="middle_Basic_information_top_info selected">基本信息</div>
+                            <div data-v-015f8c46="" class="middle_Basic_information_top_info">
+                                纳税信息
+                            </div>
+                            <div data-v-015f8c46="" class="middle_Basic_information_top_info">
+                                发票信息
+                            </div>
+                            <div data-v-015f8c46="" class="middle_Basic_information_top_info">
+                                供应商信息
+                            </div>
+                        </ul>
+                        <div data-v-015f8c46="" class="middle_all">
+                            <ul data-v-015f8c46="" class="middle_Basic_information_middle">
+                                <li data-v-015f8c46=""><span data-v-015f8c46="" class="middle_Basic_information_middle_left">报告创建时间</span><span data-v-015f8c46="" class="middle_Basic_information_middle_right"><p data-v-015f8c46="">2025-05-12 </p></span></li>
+                                <li data-v-015f8c46=""><span data-v-015f8c46="" class="middle_Basic_information_middle_left">企业名称</span><span data-v-015f8c46="" data-clipboard-text="上海强炫机械科技有限公司" class="middle_Basic_information_middle_right copybox"><p data-v-015f8c46="">上海强炫机械科技有限公司<em data-v-015f8c46="" style="color: blue;">复制 </em></p></span></li>
+                                <li data-v-015f8c46=""><span data-v-015f8c46="" class="middle_Basic_information_middle_left">当前法人姓名</span><span data-v-015f8c46="" class="middle_Basic_information_middle_right"><p data-v-015f8c46="">
+            李丽
+          </p></span></li>
+                                <li data-v-015f8c46=""><span data-v-015f8c46="" class="middle_Basic_information_middle_left">法人年龄（岁）</span><span data-v-015f8c46="" class="middle_Basic_information_middle_right"><p data-v-015f8c46="">
+            37
+          </p></span></li>
+                                <li data-v-015f8c46=""><span data-v-015f8c46="" class="middle_Basic_information_middle_left">法人占股比例</span><span data-v-015f8c46="" class="middle_Basic_information_middle_right"><p data-v-015f8c46="">
+            100%</p></span></li>
+                                <li data-v-015f8c46=""><span data-v-015f8c46="" class="middle_Basic_information_middle_left">成立日期</span><span data-v-015f8c46="" class="middle_Basic_information_middle_right"><p data-v-015f8c46="">2020-04-22</p></span></li>
+                                <li data-v-015f8c46=""><span data-v-015f8c46="" class="middle_Basic_information_middle_left">统一信用代码</span><span data-v-015f8c46="" data-clipboard-text="91310120MA1HWHRQX9" class="middle_Basic_information_middle_right copy_sh"><p data-v-015f8c46="">91310120MA1HWHRQX9 <em data-v-015f8c46="" style="color: blue;">复制 </em></p></span></li>
+                                <li data-v-015f8c46=""><span data-v-015f8c46="" class="middle_Basic_information_middle_left">行业分类</span><span data-v-015f8c46="" class="middle_Basic_information_middle_right"><p data-v-015f8c46="">
+            科技推广和应用服务业
+          </p></span></li>
+                                <li data-v-015f8c46=""><span data-v-015f8c46="" class="middle_Basic_information_middle_left">注册类型</span><span data-v-015f8c46="" class="middle_Basic_information_middle_right"><p data-v-015f8c46="">
+            有限责任公司(自然人独资)
+          </p></span></li>
+                                <li data-v-015f8c46="" style="height: 6rem;"><span data-v-015f8c46="" class="middle_Basic_information_middle_left">注册区域</span><span data-v-015f8c46="" class="middle_Basic_information_middle_right"><p data-v-015f8c46="" style="margin-right: -1rem;">
+            上海市奉贤区星火开发区莲塘路251号8幢
+          </p></span> <br data-v-015f8c46=""></li>
+                            </ul>
+                            <li data-v-015f8c46="" class="new_li"><br data-v-015f8c46=""> <span data-v-015f8c46="" class="middle_Basic_information_middle_left" style="font-weight: bold;">股东明细</span></li>
+                            <div data-v-015f8c46="" class="tbdiv">
+                                <table data-v-015f8c46="" class="middle_Basic_information_tb" style="width: 95%;">
+                                    <thead data-v-015f8c46="">
+                                    <tr data-v-015f8c46="">
+                                        <th data-v-015f8c46="" style="width: 30%;">股东名称</th>
+                                        <th data-v-015f8c46="" style="width: 30%;">参股数额</th>
+                                        <th data-v-015f8c46="" style="width: 30%;">参股比例</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody data-v-015f8c46="">
+                                    <tr data-v-015f8c46="" class="">
+                                        <td data-v-015f8c46="">李丽</td>
+                                        <td data-v-015f8c46="">200万人民币</td>
+                                        <td data-v-015f8c46="">100.00%</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <li data-v-015f8c46="" class="new_li"><br data-v-015f8c46=""> <br data-v-015f8c46=""> <span data-v-015f8c46="" class="middle_Basic_information_middle_left" style="font-weight: bold;">法人/股东变更</span></li>
+                            <div data-v-015f8c46="" class="tbdiv">
+                                <table data-v-015f8c46="" class="middle_Basic_information_tb" style="width: 95%;">
+                                    <thead data-v-015f8c46="">
+                                    <tr data-v-015f8c46="">
+                                        <th data-v-015f8c46="" style="width: 20%;">变更类型</th>
+                                        <th data-v-015f8c46="" style="width: 10%;">变更时间</th>
+                                        <th data-v-015f8c46="" style="width: 37.5%;">变更前</th>
+                                        <th data-v-015f8c46="" style="width: 37.5%;">变更后</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody data-v-015f8c46="">
+                                    <tr data-v-015f8c46="" class="">
+                                        <td data-v-015f8c46="">法定代表人变更</td>
+                                        <td data-v-015f8c46="">2024-02-01</td>
+                                        <td data-v-015f8c46="">
+                                            <ul data-v-015f8c46="" style="text-align: center; padding: 0px;">
+                                                <li data-v-015f8c46="" style="display: inline;">金卫强</li>
+                                            </ul>
+                                        </td>
+                                        <td data-v-015f8c46="">
+                                            <ul data-v-015f8c46="" style="text-align: center; padding: 0px;">
+                                                <li data-v-015f8c46="" style="display: inline;">李丽</li>
+                                            </ul>
+                                        </td>
+                                    </tr> <!----></tbody>
+                                </table>
+                            </div>
+                            <li data-v-015f8c46="" class="new_li"><br data-v-015f8c46=""> <br data-v-015f8c46=""> <span data-v-015f8c46="" class="middle_Basic_information_middle_left" style="font-weight: bold; display: flex; width: 100%;"> 银税互动授权记录:
+          无
+            </span></li> <!---->
+                            <div data-v-015f8c46="" class="bottom_img"><img data-v-015f8c46="" src="img/0c9053adba2d48033b8c85561a18bd.jpg" alt=""></div>
+                        </div>
+                        <div data-v-015f8c46="" class="middle_all" style="display: none;">
+                            <div data-v-015f8c46="" class="middle_Basic_information_middle_second">
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">纳税信用等级</p><span data-v-015f8c46="">B</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近12月增税销售额（元）</p><span data-v-015f8c46="">13,218,538</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">纳税人种类</p><span data-v-015f8c46="">一般纳税人</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近24月增税销售额（元）</p><span data-v-015f8c46="">24,806,031</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近12月欠税记录次数</p><span data-v-015f8c46="">无</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近12月纳税总额(元)</p><span data-v-015f8c46="">40,401</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">当前欠税余额（元）</p><span data-v-015f8c46="">无</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近24月纳税总额(元)</p><span data-v-015f8c46="">52,114</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近3个月滞纳金金额(元)</p><span data-v-015f8c46="">无</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近12月增税应纳额(元)</p><span data-v-015f8c46="">32,390</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近12个月滞纳金金额(元)</p><span data-v-015f8c46="">无</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近12月0申报月数(月)</p><span data-v-015f8c46="">0</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近12月滞纳金次数</p><span data-v-015f8c46="">无</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近12月最长连续0纳税申报月数</p><span data-v-015f8c46="">0</span></li>
+                                <li data-v-015f8c46="" style="width: 100%;"><br data-v-015f8c46=""> <span data-v-015f8c46="" class="middle_Basic_information_middle_left" style="width: 100%; font-size: 1.3rem; color: rgb(98, 101, 113); font-weight: bold;"> 滞纳金情况:
+
+              </span></li>
+                                <div data-v-015f8c46="" class="tbdiv">
+                                    <table data-v-015f8c46="" class="middle_Basic_information_tb" style="width: 95%;">
+                                        <thead data-v-015f8c46="">
+                                        <tr data-v-015f8c46="">
+                                            <th data-v-015f8c46="" style="width: 40%;">滞纳金时间</th>
+                                            <th data-v-015f8c46="" style="width: 40%;">滞纳金金额(元)</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody data-v-015f8c46="">
+                                        <tr data-v-015f8c46="" class="">
+                                            <td data-v-015f8c46="">2022-09-28</td>
+                                            <td data-v-015f8c46="">12.05</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="" class="odd">
+                                            <td data-v-015f8c46="">2022-09-28</td>
+                                            <td data-v-015f8c46="">0.3</td>
+                                        </tr> <!----></tbody>
+                                    </table>
+                                </div>
+                                <div data-v-015f8c46="" class="tip">
+                                    税务逾期和滞纳金是企业注册地区税局记录生成的（如有记录，可自行登录当地电子税务局看到），我方无法修改，报告内容仅供参考，不能用于任何用途。
+                                    <button data-v-015f8c46="" class="view-detail-button">查看详细路径</button>
+                                </div>
+                                <li data-v-015f8c46="" style="width: 100%;"><br data-v-015f8c46=""> <span data-v-015f8c46="" class="middle_Basic_information_middle_left" style="width: 100%; font-size: 1.3rem; color: rgb(98, 101, 113); font-weight: bold;"> 税务处罚:
+            无
+              </span></li> <!----> <!----></div>
+                            <div data-v-015f8c46=""><p data-v-015f8c46="" style="font-size: 1.5rem; margin-left: 2rem; margin-top: 2rem;">
+                                近三年纳税信息完税表(元)
+                            </p>
+                                <div data-v-015f8c46="" class="middle_all_divtb3">
+                                    <table data-v-015f8c46="" class="middle_all_3_tb">
+                                        <thead data-v-015f8c46="">
+                                        <tr data-v-015f8c46="" class="odd">
+                                            <th data-v-015f8c46="" style="width: 15rem;">月份</th>
+                                            <th data-v-015f8c46="" style="width: 15rem;">2023</th>
+                                            <th data-v-015f8c46="" style="width: 15rem;">2024</th>
+                                            <th data-v-015f8c46="" style="width: 15rem;">2025</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody data-v-015f8c46="">
+                                        <tr data-v-015f8c46="">
+                                            <td data-v-015f8c46="">1月</td>
+                                            <td data-v-015f8c46="">13878</td>
+                                            <td data-v-015f8c46="">0</td>
+                                            <td data-v-015f8c46="">2766</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="" class="odd">
+                                            <td data-v-015f8c46="">2月</td>
+                                            <td data-v-015f8c46="">16352</td>
+                                            <td data-v-015f8c46="">0</td>
+                                            <td data-v-015f8c46="">0</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="">
+                                            <td data-v-015f8c46="">3月</td>
+                                            <td data-v-015f8c46="">0</td>
+                                            <td data-v-015f8c46="">0</td>
+                                            <td data-v-015f8c46="">0</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="" class="odd">
+                                            <td data-v-015f8c46="">4月</td>
+                                            <td data-v-015f8c46="">21517</td>
+                                            <td data-v-015f8c46="">280</td>
+                                            <td data-v-015f8c46="">121</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="">
+                                            <td data-v-015f8c46="">5月</td>
+                                            <td data-v-015f8c46="">9757</td>
+                                            <td data-v-015f8c46="">0</td>
+                                            <td data-v-015f8c46="">0</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="" class="odd">
+                                            <td data-v-015f8c46="">6月</td>
+                                            <td data-v-015f8c46="">1675</td>
+                                            <td data-v-015f8c46="">0</td>
+                                            <td data-v-015f8c46="">0</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="">
+                                            <td data-v-015f8c46="">7月</td>
+                                            <td data-v-015f8c46="">0</td>
+                                            <td data-v-015f8c46="">1498</td>
+                                            <td data-v-015f8c46="">0</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="" class="odd">
+                                            <td data-v-015f8c46="">8月</td>
+                                            <td data-v-015f8c46="">0</td>
+                                            <td data-v-015f8c46="">0</td>
+                                            <td data-v-015f8c46="">0</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="">
+                                            <td data-v-015f8c46="">9月</td>
+                                            <td data-v-015f8c46="">0</td>
+                                            <td data-v-015f8c46="">1990</td>
+                                            <td data-v-015f8c46="">0</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="" class="odd">
+                                            <td data-v-015f8c46="">10月</td>
+                                            <td data-v-015f8c46="">0</td>
+                                            <td data-v-015f8c46="">11229</td>
+                                            <td data-v-015f8c46="">0</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="">
+                                            <td data-v-015f8c46="">11月</td>
+                                            <td data-v-015f8c46="">0</td>
+                                            <td data-v-015f8c46="">22796</td>
+                                            <td data-v-015f8c46="">0</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="" class="odd">
+                                            <td data-v-015f8c46="">12月</td>
+                                            <td data-v-015f8c46="">0</td>
+                                            <td data-v-015f8c46="">0</td>
+                                            <td data-v-015f8c46="">0</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="" style="background-color: rgb(179, 219, 245);">
+                                            <td data-v-015f8c46="" style="font-weight: bolder;">年度汇总</td>
+                                            <td data-v-015f8c46="">63181</td>
+                                            <td data-v-015f8c46="">37794</td>
+                                            <td data-v-015f8c46="">2887</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div data-v-015f8c46="" class="bottom_img"><img data-v-015f8c46="" src="img/0c9053adba2d48033b8c85561a18bd.jpg" alt=""></div>
+                        </div>
+                        <div data-v-015f8c46="" class="middle_all" style="display: none;">
+                            <div data-v-015f8c46="" class="middle_Basic_information_middle_second">
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近45日是否有开票记录</p> <span data-v-015f8c46="">有</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46=""> 近一个月开票金额(元)</p> <span data-v-015f8c46="">1,047,358</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近3个月开票环比增长率</p> <span data-v-015f8c46="">0.98%</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近3个月开票金额(元)</p> <span data-v-015f8c46="">3,108,470</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近6个月开票环比增长率</p> <span data-v-015f8c46="">12.18%</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近6月开票金额(元)</p> <span data-v-015f8c46="">6,180,817</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近12月开票环比增长率</p> <span data-v-015f8c46="">114.08%</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近12个月开票金额(元)</p> <span data-v-015f8c46="">13,218,538</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近3个月下游客户统计</p> <span data-v-015f8c46="">11</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近24个月开票金额(元)</p> <span data-v-015f8c46="">24,806,031</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近12月下游客户数量(家)</p> <span data-v-015f8c46="">33.0</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近12个月下游开票张数</p> <span data-v-015f8c46="">147</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近12个月作废发票数量占比</p> <span data-v-015f8c46="">--%</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近12月月均开票金额增长率</p> <span data-v-015f8c46="">114.08%</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近12月红冲发票张数占比</p> <span data-v-015f8c46="">5.26%</span></li>
+                                <li data-v-015f8c46=""><p data-v-015f8c46="">近12个月红冲金额占比</p> <span data-v-015f8c46="">8.97%</span></li>
+                                <li data-v-015f8c46="" style="width: 100%;"><p data-v-015f8c46=""> 近12个月最长连续断票月数</p> <span data-v-015f8c46="">--</span></li>
+                                <li data-v-015f8c46="" style="width: 100%;"><p data-v-015f8c46=""> 近12个月断票月数(不含2月份)</p> <span data-v-015f8c46="">--</span></li>
+                                <li data-v-015f8c46="" style="width: 100%;"><p data-v-015f8c46="">近12个月最大连续未开票间隔天数（销项）</p> <span data-v-015f8c46="">43</span></li>
+                            </div>
+                            <div data-v-015f8c46=""><p data-v-015f8c46="" style="font-size: 1.5rem; margin-left: 2rem; margin-top: 2rem;">
+                                近三年开票信息报表（元）
+                            </p>
+                                <div data-v-015f8c46="" class="middle_all_divtb3">
+                                    <table data-v-015f8c46="" class="middle_all_3_tb">
+                                        <thead data-v-015f8c46="">
+                                        <tr data-v-015f8c46="" class="odd">
+                                            <th data-v-015f8c46="" style="width: 15rem;">月份</th>
+                                            <th data-v-015f8c46="" style="width: 15rem;">2023</th>
+                                            <th data-v-015f8c46="" style="width: 15rem;">2024</th>
+                                            <th data-v-015f8c46="" style="width: 15rem;">2025</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody data-v-015f8c46="">
+                                        <tr data-v-015f8c46="">
+                                            <td data-v-015f8c46="">1月</td>
+                                            <td data-v-015f8c46="">774360</td>
+                                            <td data-v-015f8c46="">1290600</td>
+                                            <td data-v-015f8c46="">1312452</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="" class="odd">
+                                            <td data-v-015f8c46="">2月</td>
+                                            <td data-v-015f8c46="">940137</td>
+                                            <td data-v-015f8c46="">854670</td>
+                                            <td data-v-015f8c46="">891276</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="">
+                                            <td data-v-015f8c46="">3月</td>
+                                            <td data-v-015f8c46="">1213827</td>
+                                            <td data-v-015f8c46="">1055502</td>
+                                            <td data-v-015f8c46="">1169836</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="" class="odd">
+                                            <td data-v-015f8c46="">4月</td>
+                                            <td data-v-015f8c46="">848936</td>
+                                            <td data-v-015f8c46="">998749</td>
+                                            <td data-v-015f8c46="">1047358</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="">
+                                            <td data-v-015f8c46="">5月</td>
+                                            <td data-v-015f8c46="">942417</td>
+                                            <td data-v-015f8c46="">1108727</td>
+                                            <td data-v-015f8c46="">140164</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="" class="odd">
+                                            <td data-v-015f8c46="">6月</td>
+                                            <td data-v-015f8c46="">726550</td>
+                                            <td data-v-015f8c46="">854765</td>
+                                            <td data-v-015f8c46="">0</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="">
+                                            <td data-v-015f8c46="">7月</td>
+                                            <td data-v-015f8c46="">853858</td>
+                                            <td data-v-015f8c46="">1122186</td>
+                                            <td data-v-015f8c46="">0</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="" class="odd">
+                                            <td data-v-015f8c46="">8月</td>
+                                            <td data-v-015f8c46="">1475957</td>
+                                            <td data-v-015f8c46="">1736420</td>
+                                            <td data-v-015f8c46="">0</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="">
+                                            <td data-v-015f8c46="">9月</td>
+                                            <td data-v-015f8c46="">1011764</td>
+                                            <td data-v-015f8c46="">1178545</td>
+                                            <td data-v-015f8c46="">0</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="" class="odd">
+                                            <td data-v-015f8c46="">10月</td>
+                                            <td data-v-015f8c46="">881516</td>
+                                            <td data-v-015f8c46="">1037078</td>
+                                            <td data-v-015f8c46="">0</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="">
+                                            <td data-v-015f8c46="">11月</td>
+                                            <td data-v-015f8c46="">1188939</td>
+                                            <td data-v-015f8c46="">1398752</td>
+                                            <td data-v-015f8c46="">0</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="" class="odd">
+                                            <td data-v-015f8c46="">12月</td>
+                                            <td data-v-015f8c46="">306971</td>
+                                            <td data-v-015f8c46="">361143</td>
+                                            <td data-v-015f8c46="">0</td>
+                                        </tr>
+                                        <tr data-v-015f8c46="" style="background-color: rgb(179, 219, 245);">
+                                            <td data-v-015f8c46="" style="font-weight: bolder;">年度汇总</td>
+                                            <td data-v-015f8c46="">1165232</td>
+                                            <td data-v-015f8c46="">12997137</td>
+                                            <td data-v-015f8c46="">4561086</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div data-v-015f8c46="" class="bottom_img"><img data-v-015f8c46="" src="img/0c9053adba2d48033b8c85561a18bd.jpg" alt=""></div>
+                        </div>
+                        <div data-v-015f8c46="" class="middle_all" style="display: none;">
+                            <div data-v-015f8c46="" class="fonsi">
+                                <svg data-v-015f8c46="" xmlns="http://www.w3.org/2000/svg" width="16" height="20" fill="currentColor" viewBox="0 0 16 16" color="white" class="bi bi-person-lines-fill">
+                                    <path data-v-015f8c46="" d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"></path>
+                                </svg>
+                            </div>
+                            <span data-v-015f8c46="" class="middle_all_4_span">近一年前十供应商信息</span>
+                            <div data-v-015f8c46="" class="separator"></div>
+                            <div data-v-015f8c46="" class="middle_all_divtb4" style="margin-top: 10px;">
+                                <table data-v-015f8c46="" class="middle_all_4_tb">
+                                    <thead data-v-015f8c46="">
+                                    <tr data-v-015f8c46="" class="odd">
+                                        <th data-v-015f8c46="" style="width: 10%;">排名</th>
+                                        <th data-v-015f8c46="" style="width: 25%;">供应商名称</th>
+                                        <th data-v-015f8c46="" style="width: 20%;">采购额(元)</th>
+                                        <th data-v-015f8c46="" style="width: 15%;">金额占比(%)</th>
+                                        <th data-v-015f8c46="" style="width: 15%;">是否关联方</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody data-v-015f8c46="">
+                                    <tr data-v-015f8c46="" class="">
+                                        <td data-v-015f8c46="">1</td>
+                                        <td data-v-015f8c46="">平湖鼎峰不锈钢有限公司</td>
+                                        <td data-v-015f8c46="">5384592.13</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">44.28</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="odd">
+                                        <td data-v-015f8c46="">2</td>
+                                        <td data-v-015f8c46="">上海焱洪金属制品有限公司</td>
+                                        <td data-v-015f8c46="">1184376.27</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">9.74</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="">
+                                        <td data-v-015f8c46="">3</td>
+                                        <td data-v-015f8c46="">君创国际融资租赁有限公司</td>
+                                        <td data-v-015f8c46="">1150260.23</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">9.4</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="odd">
+                                        <td data-v-015f8c46="">4</td>
+                                        <td data-v-015f8c46="">苏州戈必真金属材料有限公司</td>
+                                        <td data-v-015f8c46="">1113843.98</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">9.16</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="">
+                                        <td data-v-015f8c46="">5</td>
+                                        <td data-v-015f8c46="">嘉兴市瑞宏阳精密机械有限公司</td>
+                                        <td data-v-015f8c46="">980869.68</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">8.07</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="odd">
+                                        <td data-v-015f8c46="">6</td>
+                                        <td data-v-015f8c46="">平湖市俊名机电设备有限公司</td>
+                                        <td data-v-015f8c46="">343748.68</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">2.83</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="">
+                                        <td data-v-015f8c46="">7</td>
+                                        <td data-v-015f8c46="">嘉兴龙工叉车销售有限公司</td>
+                                        <td data-v-015f8c46="">335132.74</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">2.76</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="odd">
+                                        <td data-v-015f8c46="">8</td>
+                                        <td data-v-015f8c46="">浙江力华工业自动化科技有限公司</td>
+                                        <td data-v-015f8c46="">232743.36</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">1.91</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="">
+                                        <td data-v-015f8c46="">9</td>
+                                        <td data-v-015f8c46="">嘉兴嘉灿贸易有限公司</td>
+                                        <td data-v-015f8c46="">231999.15</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">2.91</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="odd">
+                                        <td data-v-015f8c46="">10</td>
+                                        <td data-v-015f8c46="">泰州市高港区油所为润滑油有限公司</td>
+                                        <td data-v-015f8c46="">130420.34</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">1.07</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <br data-v-015f8c46="">
+                            <div data-v-015f8c46="" class="fonsi">
+                                <svg data-v-015f8c46="" xmlns="http://www.w3.org/2000/svg" width="16" height="20" fill="currentColor" viewBox="0 0 16 16" color="white" class="bi bi-person-lines-fill">
+                                    <path data-v-015f8c46="" d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"></path>
+                                </svg>
+                            </div>
+                            <span data-v-015f8c46="" class="middle_all_4_span">近一年前十销售客户信息</span>
+                            <div data-v-015f8c46="" class="separator"></div>
+                            <div data-v-015f8c46="" class="middle_all_divtb4" style="margin-top: 10px;">
+                                <table data-v-015f8c46="" class="middle_all_4_tb">
+                                    <thead data-v-015f8c46="">
+                                    <tr data-v-015f8c46="" class="odd">
+                                        <th data-v-015f8c46="" style="width: 10%;">排名</th>
+                                        <th data-v-015f8c46="" style="width: 40%;">客户名称</th>
+                                        <th data-v-015f8c46="" style="width: 20%;">销售额(元)</th>
+                                        <th data-v-015f8c46="" style="width: 15%;">金额占比(%)</th>
+                                        <th data-v-015f8c46="" style="width: 15%;">是否关联方</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody data-v-015f8c46="">
+                                    <tr data-v-015f8c46="" class="">
+                                        <td data-v-015f8c46="">1</td>
+                                        <td data-v-015f8c46="">平湖辉拓贸易有限公司</td>
+                                        <td data-v-015f8c46="">3649461.31</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">27.61</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="odd">
+                                        <td data-v-015f8c46="">2</td>
+                                        <td data-v-015f8c46="">铂高科技（嘉兴）有限公司</td>
+                                        <td data-v-015f8c46="">2576029.74</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">19.49</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="">
+                                        <td data-v-015f8c46="">3</td>
+                                        <td data-v-015f8c46="">嘉善逢益精密机械股份有限公司</td>
+                                        <td data-v-015f8c46="">1304535.54</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">9.87</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="odd">
+                                        <td data-v-015f8c46="">4</td>
+                                        <td data-v-015f8c46="">平湖市瑞阳精密机械有限公司</td>
+                                        <td data-v-015f8c46="">1294626.11</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">9.79</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="">
+                                        <td data-v-015f8c46="">5</td>
+                                        <td data-v-015f8c46="">浙江福库工业科技有限公司</td>
+                                        <td data-v-015f8c46="">1227807.02</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">9.29</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="odd">
+                                        <td data-v-015f8c46="">6</td>
+                                        <td data-v-015f8c46="">嘉兴海纳精密机械有限公司</td>
+                                        <td data-v-015f8c46="">983180.81</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">7.44</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="">
+                                        <td data-v-015f8c46="">7</td>
+                                        <td data-v-015f8c46="">平湖市珺宇液压设备有限公司</td>
+                                        <td data-v-015f8c46="">871989.39</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">6.60</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="odd">
+                                        <td data-v-015f8c46="">8</td>
+                                        <td data-v-015f8c46="">嘉兴金日升工具股份有限公司</td>
+                                        <td data-v-015f8c46="">653113.72</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">4.94</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="">
+                                        <td data-v-015f8c46="">9</td>
+                                        <td data-v-015f8c46="">嘉兴市众立机械有限公司</td>
+                                        <td data-v-015f8c46="">549306.08</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">4.16</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    <tr data-v-015f8c46="" class="odd">
+                                        <td data-v-015f8c46="">10</td>
+                                        <td data-v-015f8c46="">平湖华明减速机有限公司</td>
+                                        <td data-v-015f8c46="">420360.62</td>
+                                        <td data-v-015f8c46="" style="color: rgb(255, 185, 78);">3.18</td>
+                                        <td data-v-015f8c46="">否</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div data-v-015f8c46="" class="bottom_img"><img data-v-015f8c46="" src="img/0c9053adba2d48033b8c85561a18bd.jpg" alt=""></div>
+                        </div>
+                    </div> <!----> <!----> <!----> <!----></div>
+            </div>
+        </div> <!----></div>
+</div>
+
+<script>
+
+
+     $('body').scrollTop(0);
+     $('body').on('click', '.middle_Basic_information_top_info', function () {
+
+        // 移除所有tab的selected类
+        $('.middle_Basic_information_top_info').removeClass('selected');
+        // 给当前点击的tab添加selected类
+        $(this).addClass('selected');
+
+        // 获取当前tab在同级元素中的索引位置
+        var tabIndex = $(this).index();
+
+        // 隐藏所有内容区域
+        $('.middle_all').removeClass('active').hide();
+        // 显示对应索引的内容区域
+        $('.middle_all').eq(tabIndex).addClass('active').show();
+    }).on('click', '.copybox', function() {
+        // 从data-clipboard-text属性获取要复制的文本
+        const textToCopy = $(this).data('clipboard-text');
+        if (textToCopy) {
+            copyTextToClipboard(textToCopy);
+            messageSuccess('已复制企业名称');
+        }
+    }).on('click', '.copy_sh', function() {
+        // 从data-clipboard-text属性获取要复制的文本
+        const textToCopy = $(this).data('clipboard-text');
+        if (textToCopy) {
+            copyTextToClipboard(textToCopy);
+            messageSuccess('已复制税号');
+        }
+    }).on('click', '.zfbg-btn', function() {
+        // 从data-clipboard-text属性获取要复制的文本
+        const textToCopy = document.URL;
+        if (textToCopy) {
+            copyTextToClipboard(textToCopy);
+            messageSuccess('已复制报告链接，可转发给其他用户查看报告');
+        }
+    }).on('click', '.view-detail-button', function() {
+      // 创建模态框HTML结构
+      const modalHTML = `
+        <div data-v-015f8c46="" class="modal-overlay" style="width: 95%; height: 95%;">
+          <div data-v-015f8c46="" class="modal-content">
+            <iframe data-v-015f8c46="" src="/shuimu/demo" width="100%" height="500px" frameborder="0"></iframe>
+            <button data-v-015f8c46="" class="close-button">关闭</button>
+          </div>
+        </div>
+      `;
+
+      // 将模态框添加到id="app"的div中
+      const middleDiv = document.querySelector('.middle');
+      if (middleDiv) {
+        middleDiv.insertAdjacentHTML('beforeend', modalHTML);
+
+        // 添加关闭事件
+        const closeBtn = middleDiv.querySelector('.modal-overlay .close-button');
+        closeBtn.addEventListener('click', closeModal);
+      }
+    })
+
+     // 立即滚动到顶部
+
+
+
+
+     // 关闭模态框函数
+    function closeModal() {
+      const modal = document.querySelector('.middle .modal-overlay');
+      if (modal) {
+        modal.remove();
+      }
+    }
+
+
+     // 复制文本到剪贴板
+    function copyTextToClipboard(text) {
+        // 创建临时textarea元素
+        const $temp = $('<textarea>');
+        $('body').append($temp);
+
+        // 设置要复制的文本
+        $temp.val(text).select();
+
+        try {
+            // 执行复制命令
+            const successful = document.execCommand('copy');
+            if (successful) {
+                return true;
+            } else {
+                console.log('复制失败，请手动复制');
+                return false;
+            }
+        } catch (err) {
+            console.log('该浏览器不支持自动复制', err);
+            return false;
+        } finally {
+            // 移除临时元素
+            $temp.remove();
+        }
+    }
+
+    function messageSuccess(options) {
+      // 参数处理
+      if (typeof options === 'string') {
+        options = { message: options };
+      }
+
+      const config = $.extend({
+        message: '',
+        duration: 1200,
+        customClass: '',
+        offset: 18,
+        center: false
+      }, options);
+
+      // 内联SVG图标 - 确保立即显示
+      const successIcon = `
+        <svg class="message-icon" viewBox="0 0 1024 1024" width="16" height="16">
+          <path fill="#67c23a" d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm193.5 301.7l-210.6 292a31.8 31.8 0 0 1-51.7 0L318.5 484.9c-3.8-5.3 0-12.7 6.5-12.7h46.9c10.2 0 19.9 4.9 25.9 13.3l71.2 98.8 157.2-218c6-8.3 15.6-13.3 25.9-13.3H699c6.5 0 10.3 7.4 6.5 12.7z"/>
+        </svg>
+      `;
+
+      // 创建消息元素
+      const $message = $(`
+        <div class="jquery-element-message success ${config.customClass}">
+          ${successIcon}
+          <p class="message-content">${config.message}</p>
+        </div>
+      `);
+
+      // 初始状态 - 完全透明并位于视口上方
+      $message.css({
+        top: `${-config.offset - 100}px`, // 初始位置在屏幕外更远处
+        opacity: 0,
+        left: '50%',
+        transform: 'translateX(-50%)',
+        position: 'fixed',
+        transition: 'opacity 0.3s, transform 0.4s, top 0.4s', // 分离控制不同属性的动画
+        'transition-timing-function': 'cubic-bezier(0.645, 0.045, 0.355, 1)',
+        'will-change': 'transform, opacity, top' // 优化动画性能
+      });
+
+      $('body').append($message);
+
+      // 强制重绘，确保CSS过渡生效
+      void $message[0].offsetHeight;
+
+      // 应用动画 - 滑入+淡入
+      $message.css({
+        top: `${config.offset}px`,
+        opacity: 1
+      });
+
+      // 自动关闭
+      const timer = setTimeout(() => {
+        // 滑出+淡出动画
+        $message.css({
+          top: `${-config.offset - 50}px`, // 向上滑出
+          opacity: 0
+        });
+
+        // 动画完成后移除元素
+        setTimeout(() => {
+          $message.remove();
+        }, 400); // 匹配滑出动画时长
+      }, config.duration);
+
+      // 点击关闭
+      $message.on('click', () => {
+        clearTimeout(timer);
+        $message.css({
+          top: `${-config.offset - 50}px`,
+          opacity: 0
+        });
+        setTimeout(() => {
+          $message.remove();
+        }, 400);
+      });
+
+      return {
+        close: function() {
+          clearTimeout(timer);
+          $message.css({
+            top: `${-config.offset - 50}px`,
+            opacity: 0
+          });
+          setTimeout(() => {
+            $message.remove();
+          }, 400);
+        }
+      };
+    }
+
+
+</script>
+
+</body>
+</html>
