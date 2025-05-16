@@ -11654,7 +11654,7 @@ li[data-v-eb2929f4] {
     width: 100%;
     height: 23rem;
     position: relative;
-    background-image: url(img/RR1.077dced.png);
+    background-image: url(../img/RR1.077dced.png);
     background-size: cover;
     background-position: 50%;
     max-height: 200px;
@@ -11664,7 +11664,7 @@ li[data-v-eb2929f4] {
 
 @media (min-width: 563px) {
     .row[data-v-eb2929f4] {
-        background-image:url(img/RR.ceabd33.png)
+        background-image:url(../img/RR.ceabd33.png)
     }
 }
 
@@ -13006,7 +13006,7 @@ li[data-v-eaa59c6a] {
     width: 100%;
     height: 23rem;
     position: relative;
-    background-image: url(img/RR1.077dced.png);
+    background-image: url(../img/RR1.077dced.png);
     background-size: cover;
     background-position: 50%;
     max-height: 200px;
@@ -13016,7 +13016,7 @@ li[data-v-eaa59c6a] {
 
 @media (min-width: 563px) {
     .row[data-v-eaa59c6a] {
-        background-image:url(img/RR.ceabd33.png)
+        background-image:url(../img/RR.ceabd33.png)
     }
 }
 
